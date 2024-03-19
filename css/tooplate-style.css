@@ -462,6 +462,9 @@ a:hover, a:active, a:focus {
   opacity: 1;
 }
 
+.section-title h1 {
+  text-align: center;
+}
 
 /*---------------------------------------
    TEAM             
