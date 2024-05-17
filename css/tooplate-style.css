@@ -396,13 +396,16 @@ a:hover, a:active, a:focus {
   padding-bottom: 150px;
 }
 
-.about-info h3 {
-  font-size: 14px;
+.about-info h1 {
+  font-size: 30px;
   letter-spacing: 12px;
   text-transform: uppercase;
   margin: 0;
 }
 
+.about-info h3{
+  font-size: 14px;
+}
 
 /*---------------------------------------
   PROJECT              
