@@ -66,7 +66,7 @@ p {
 -----------------------------------------*/
 
 .section-btn {
-  margin: 32px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 0;
 }
 
@@ -261,12 +261,6 @@ a:hover, a:active, a:focus {
   padding: 20px 0;
 }
 
-.custom-navbar .navbar-brand {
-  color: #f9f9f9;
-  font-weight: normal;
-  font-size: 25px;
-}
-
 .custom-navbar .nav li a {
   font-size: 14px;
   font-weight: normal;
@@ -306,6 +300,13 @@ a:hover, a:active, a:focus {
 .custom-navbar .nav li.active > a {
   background-color: transparent;
   color: #ffffff;
+}
+
+.custom-navbar a.navbar-brand{
+  size:0;
+  font:0;
+  margin:0px;
+  padding:5px;
 }
 
 .custom-navbar .navbar-toggle {
@@ -353,8 +354,8 @@ a:hover, a:active, a:focus {
 
 #home h1 {
   color: #ffffff;
-  font-size: 6em;
-  line-height: 1.2em;
+  font-size: 72px;
+  line-height: 100px;
 }
 
 #home p {
@@ -386,7 +387,18 @@ a:hover, a:active, a:focus {
   transition: 1s opacity;
 }
 
+#home div.logo-image{
+  display: inline-flex;
+  margin-top: 0;
+}
 
+#home div.logo-text{
+  width: 600px;
+  display:block;
+  margin-left: 4em;
+  margin-right: 3em;
+  margin-top: 2em;
+}
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
@@ -398,13 +410,13 @@ a:hover, a:active, a:focus {
 
 .about-info h1 {
   font-size: 30px;
-  letter-spacing: 12px;
+  letter-spacing: 0px;
   text-transform: uppercase;
   margin: 0;
 }
 
 .about-info h3{
-  font-size: 14px;
+  font-size: 24px;
 }
 
 /*---------------------------------------
@@ -482,6 +494,7 @@ a:hover, a:active, a:focus {
 }
 
 .team-item {
+  height: 250px;
   overflow: hidden;
   position: relative;
   margin-top: 34px;
